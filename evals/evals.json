@@ -1,5 +1,5 @@
 {
-  "skill_name": "cross-border-medical-assistant",
+  "skill_name": "cancerdao-cross-border-medical-assistant",
   "evals": [
     {
       "id": "eval-1",
@@ -27,11 +27,12 @@
       "id": "eval-3",
       "name": "Cross-border treatment recommendation",
       "prompt": "我爸肺癌晚期，KRAS G12C突变，香港有TAK-1826的试验，内地有信达生物的试验，应该去哪边？",
-      "expected_output": "Output provides a balanced comparison of both options with key factors.",
+      "expected_output": "Output provides a balanced comparison of both options with key factors. If TAK-1826 cannot be verified, explicitly states so and provides real KRAS G12C trial alternatives.",
       "assertions": [
         "Output mentions at least one specific trial or drug",
         "Output includes key decision factors (cost, location, eligibility)",
-        "Output includes recommendation to consult clinical team"
+        "Output includes recommendation to consult clinical team",
+        "If TAK-1826 cannot be verified, explicitly states the unavailability of that drug/trial"
       ]
     }
   ]
