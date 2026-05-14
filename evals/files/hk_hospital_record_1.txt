@@ -1,0 +1,33 @@
+# Mock patient data - HK hospital record
+# Hong Kong Union Health Hospital - oncology consultation
+
+Patient: 张某某 / Zhang XX
+ID: HK_UH_20240115_001
+
+Date: 2024-01-15
+Institution: 香港养和医院 (Hong Kong Union Health Hospital)
+Department: 肿瘤内科
+Doctor: Dr. CHAN Tai Man (陈大文医生)
+Visit Type: 专科门诊
+
+Chief Complaint:
+患者因咳嗽2周就诊，CT发现右下肺肿块4cm，PET-CT提示纵隔淋巴结转移。
+
+Diagnosis:
+右下肺腺癌 (cT2N2M0, IIIB期)
+基因检测: EGFR L858R突变阳性
+
+Treatment Plan:
+1. 紫杉醇+卡铂化疗，2周期后评估
+2. 考虑后续EGFR TKI靶向治疗
+
+Medications:
+- 紫杉醇 (Paclitaxel) 175mg/m2
+- 卡铂 (Carboplatin) AUC 5
+
+Lab Results:
+- CEA: 45.6 ng/mL (elevated)
+- CA125: 68 U/mL (elevated)
+- ALT: 28 U/L, AST: 32 U/L (normal)
+
+Next Follow-up: 2024-02-15

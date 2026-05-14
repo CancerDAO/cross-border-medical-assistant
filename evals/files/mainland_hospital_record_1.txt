@@ -1,0 +1,41 @@
+# Mock patient data - Mainland hospital admission summary
+# Guangdong Provincial People's Hospital
+
+Patient: 张某某 / Zhang XX
+Gender: Male / 男
+Age: 62
+
+Admission Date: 2024-03-01
+Discharge Date: 2024-03-08
+Institution: 广东省人民医院
+Department: 肿瘤内科
+Attending Physician: 李明主任医师
+
+Chief Complaint:
+咳嗽加重伴气促2周，香港养和医院行2周期化疗后评估。
+
+Diagnosis:
+1. 右下肺腺癌 (ypT2N2M0, IIIB期化疗后)
+2. EGFR L858R突变
+3. 化疗后骨髓抑制
+
+Treatment Summary:
+- 住院期间给予培美曲塞+卡铂方案化疗（第三周期）
+- 升白细胞治疗后骨髓抑制好转
+- EGFR TKI 吉非替尼 250mg QD 靶向治疗
+
+Lab Results (Discharge):
+- WBC: 2.1 x10^9/L (low)
+- ANC: 0.9 x10^9/L (low)
+- Hb: 98 g/L (low)
+- PLT: 156 x10^9/L
+- CEA: 32.4 ng/mL (down from 45.6)
+
+Imaging:
+- Chest CT (2024-03-03): 右下肺肿块3.2cm (缩小的)，纵隔淋巴结缩小
+
+出院带药:
+- 吉非替尼 (Gefitinib) 250mg x 30片
+- 重组人粒细胞刺激因子 (G-CSF) 必要时使用
+
+Follow-up: 2周后肿瘤科门诊复诊

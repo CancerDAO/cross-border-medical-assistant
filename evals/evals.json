@@ -1,0 +1,38 @@
+{
+  "skill_name": "cross-border-medical-assistant",
+  "evals": [
+    {
+      "id": "eval-1",
+      "name": "HK-Mainland patient timeline consolidation",
+      "prompt": "我在香港养和医院看过专科，用过帕博利珠单抗，后来在广东省人民医院住过院做过化疗。现在想去香港继续治疗能把病历整合给我吗？",
+      "expected_output": "Output contains a chronological timeline with dates, institutions, treatments listed.",
+      "assertions": [
+        "Output contains timeline with at least 3 entries",
+        "Output mentions both Hong Kong and Mainland institutions",
+        "Output includes at least one drug name"
+      ]
+    },
+    {
+      "id": "eval-2",
+      "name": "Drug availability comparison HK vs Mainland",
+      "prompt": "我正在用伏美替尼，想知道这个药在香港有没有上市，多少钱？和内地价格差多少？",
+      "expected_output": "Output compares drug availability and approximate price difference between HK and Mainland.",
+      "assertions": [
+        "Output mentions whether drug is available in HK",
+        "Output mentions approximate price or cost difference",
+        "Output includes a disclaimer to verify with current sources"
+      ]
+    },
+    {
+      "id": "eval-3",
+      "name": "Cross-border treatment recommendation",
+      "prompt": "我爸肺癌晚期，KRAS G12C突变，香港有TAK-1826的试验，内地有信达生物的试验，应该去哪边？",
+      "expected_output": "Output provides a balanced comparison of both options with key factors.",
+      "assertions": [
+        "Output mentions at least one specific trial or drug",
+        "Output includes key decision factors (cost, location, eligibility)",
+        "Output includes recommendation to consult clinical team"
+      ]
+    }
+  ]
+}

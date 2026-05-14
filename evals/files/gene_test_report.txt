@@ -1,0 +1,27 @@
+# Mock patient data - gene test report
+
+Patient: 张某某 / Zhang XX
+Specimen: 肺部穿刺活检组织
+Collected: 2024-01-10
+Reported: 2024-01-13
+
+Institution: 香港养和医院病理中心
+
+Gene Panel Result:
+
+| Gene | Mutation | Variant | Clinical Significance |
+|------|----------|---------|----------------------|
+| EGFR | L858R | p.L858R | 敏感突变，对EGFR-TKI敏感 |
+| TP53 | V157D | p.V157D | 意义不明 |
+| RB1 | 无突变 | - | - |
+| KRAS | 无突变 | - | - |
+
+Interpretation:
+EGFR L858R突变阳性，提示对吉非替尼、厄洛替尼、阿法替尼、奥希替尼等EGFR-TKI药物敏感。
+
+Recommendations:
+1. 一线治疗可考虑EGFR-TKI靶向治疗
+2. 如条件允许可考虑奥希替尼（针对T790M耐药突变）
+
+Report Date: 2024-01-13
+Reporting Pathologist: Dr. LO Wai Ming
