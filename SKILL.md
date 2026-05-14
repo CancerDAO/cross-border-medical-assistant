@@ -1,5 +1,5 @@
 ---
-name: cancerdao-cross-border-medical-assistant
+name: cross-border-medical-assistant
 description: "当癌症患者描述在香港和内地都有就诊经历、需要整合病历或比较两地治疗时使用。整合散落的病历为完整时间线，提供香港vs内地药物可及性对比、费用估算、治疗方案比较。触发词：跨境医疗、香港内地看病、病历整合、时间线、赴港就医、香港买药、内地赴港、两地比较。"
 license: MIT
 metadata:
@@ -112,9 +112,7 @@ metadata:
 - 去重重叠条目
 - 不确定日期标注 `date_confidence: "low"`
 
-
 ### Step 3 — 药物可及性查询
-
 
 对时间线中出现的每种药物，查询：
 
@@ -127,6 +125,7 @@ metadata:
 详见：`references/drug-price-comparison.md`
 
 ### Step 4 — 费用估算
+
 
 基于收集的信息估算：
 - 咨询费（两地为参考范围，非精确数字）
@@ -171,7 +170,7 @@ metadata:
 ## File map
 
 ```
-cancerdao-cross-border-medical-assistant/
+cross-border-medical-assistant/
 ├── SKILL.md
 ├── README.md
 ├── evals/
