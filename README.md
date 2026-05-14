@@ -1,43 +1,31 @@
-# cross-border-medical-assistant
+# CancerDAO Cross-Border Medical Assistant
 
-CancerDAO skill for consolidating medical records and comparing cross-border (Hong Kong ↔ Mainland China) treatment options for cancer patients.
+跨境医疗助手 skill。整合香港和内地的病历为完整时间线，提供药物可及性对比和费用估算。
 
-## What it does
+## Install
 
-- **Timeline consolidation**: Merge scattered records from HK hospitals, Mainland hospitals, labs, and imaging centers into a unified chronological timeline
-- **Drug availability check**: Cross-reference NMPA (Mainland) and HK FDA drug approvals
-- **Cost comparison**: Estimate consultation fees, drug prices, and admission costs in both regions
-- **Treatment recommendation**: Provide structured comparison of HK vs Mainland treatment options, including clinical trial eligibility
+```bash
+npx skills add CancerDAO/cross-border-medical-assistant
+```
 
 ## When to use
 
-Trigger phrases: `跨境医疗`, `香港内地`, `两地看病`, `病历整合`, `时间线`, `赴港就医`, `香港买药`, `内地赴港`, `cross-border medical`
+- 在香港和内地都看过病，需要整合
+- 比较香港和内地的治疗方案、费用
+- 查询药物在香港/内地的上市状态和价格
 
-## Quick start
+## Key features
 
-```bash
-# Install via CancerDAO skills CLI
-npx skills add CancerDAO/cross-border-medical-assistant
+- 统一病历时间线（JSON格式）
+- 药物可及性对比（NMPA vs HK DOH）
+- 费用估算（参考范围）
+- 治疗方案比较
 
-# Use in conversation
-/cross-border-medical-assistant
-```
+## References
 
-## Project structure
+- `references/nmpa-drug-approval-guide.md` — NMPA 数据库使用
+- `references/hk-drug-registration-guide.md` — 香港卫生署药物注册
+- `references/drug-price-comparison.md` — Keytruda、EGFR TKI 价格对比
+- `references/hk-cancer-hospitals.md` — 香港主要癌症中心
 
-```
-cross-border-medical-assistant/
-├── SKILL.md           # Skill definition and workflow
-├── README.md          # This file
-└── evals/
-    ├── evals.json     # Evaluation test cases
-    └── files/         # Mock patient data for testing
-```
-
-## Safety disclaimer
-
-This tool provides informational synthesis only. All recommendations must be verified with licensed clinicians. Drug availability and pricing change frequently — always confirm with current sources before making treatment decisions.
-
-## License
-
-MIT
+MIT — CancerDAO
